@@ -20,6 +20,6 @@ Sentence Embedding: https://drive.google.com/file/d/17XKike87FrCYHn1pHP00m2YgTJB
   <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/BERT/plots/val_loss.png" width="500" />
 </div>
 <div style="display: flex; flex-wrap: wrap;">
-  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/BERT/plots/weigthed_f1_train.png" width="500" />
-  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/BERT/plots/weigthed_f1_val.png" width="500" />
+  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/BERT/plots/weighted_f1_train.png" width="500" />
+  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/BERT/plots/weighted_f1_val.png" width="500" />
 </div>
