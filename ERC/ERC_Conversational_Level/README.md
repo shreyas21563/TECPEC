@@ -2,9 +2,10 @@
 
 Coming Soon...
 
-# Model Link 
+# Links
 
-https://drive.google.com/file/d/1kQD9KW1NYgTLwYK-QHMDBee4jEmVvJBR/view?usp=sharing
+Model: https://drive.google.com/file/d/1kQD9KW1NYgTLwYK-QHMDBee4jEmVvJBR/view?usp=sharing
+Sentence Embedding: https://drive.google.com/file/d/17XKike87FrCYHn1pHP00m2YgTJBrtEnb/view?usp=sharing
 
 # Plots 
 
