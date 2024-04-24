@@ -26,6 +26,12 @@ Sentence Embedding: https://drive.google.com/file/d/17XKike87FrCYHn1pHP00m2YgTJB
 |macro avg |       0.29   |   0.33     | 0.30  |    1475 |
 |weighted avg |       0.42 |     0.36 |      0.37 |      1475 |
 
+## Confusion Matrix
+
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Conversational_Level/plots/val_confusion_matrix.png" />
+</div>
+
 # Plots 
 
 <div style="display: flex; flex-wrap: wrap;">
