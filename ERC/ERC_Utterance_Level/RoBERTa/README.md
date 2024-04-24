@@ -1,7 +1,7 @@
 # Architecture
 
 <div style="display: flex; flex-wrap: wrap;">
-  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/RoBERTa/Architecture.jpg" width="800" /
+  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/RoBERTa/Architecture.jpg" /
 </div>
 
 # Links
