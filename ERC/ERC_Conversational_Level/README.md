@@ -9,6 +9,19 @@
 Model: https://drive.google.com/file/d/1kQD9KW1NYgTLwYK-QHMDBee4jEmVvJBR/view?usp=sharing <br> 
 Sentence Embedding: https://drive.google.com/file/d/17XKike87FrCYHn1pHP00m2YgTJBrtEnb/view?usp=sharing
 
+# Scores on Validation
+
+## Classification Report
+| Emotion | Precision | Recall | F1-Score | Support |
+| ------- | --------- | ------ | -------- | ------- |
+| Anger   |
+| Joy     |
+| fear    |
+| Disgust |
+| Neutral |
+| Surprise|
+| Sadness |
+
 # Plots 
 
 <div style="display: flex; flex-wrap: wrap;">
