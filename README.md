@@ -2,5 +2,5 @@
 
 # Scores on Leaderboard
 | ERC Model | Cause Model | weighted_strict_f1 | weighted_Proportional_f1 | strict_f1 | Proportional_f1 |
-| -------   | ---------   | ------             | --------                 | -------   |                 |
+| --------- | ----------- | ------------------ | -------------------------| --------- |---------------- |
 
