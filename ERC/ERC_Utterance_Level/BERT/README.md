@@ -1,6 +1,8 @@
 # Architecture
 
-Coming Soon...
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="https://github.com/parthivdholaria/NLP-Project-24/blob/Shreyas/ERC/ERC_Utterance_Level/BERT/Architecture.jpg" height="500" />
+</div>
 
 # Links
 
