@@ -22,7 +22,7 @@ Sentence Embedding: https://drive.google.com/file/d/17XKike87FrCYHn1pHP00m2YgTJB
 | Surprise| 0.32      | 0.42   |  0.36    |  184 |
 | Sadness | 0.28      | 0.31   |  0.30    |  136 |
 |         |           |        |          |      |
-|Accuracy | | | | | 0.36 | 1475 |
+|Accuracy |           |        |  0.36    | 1475 |
 |macro avg |       0.29   |   0.33     | 0.30  |    1475 |
 |weighted avg |       0.42 |     0.36 |      0.37 |      1475 |
 
