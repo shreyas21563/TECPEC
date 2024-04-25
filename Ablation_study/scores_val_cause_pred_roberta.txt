@@ -1,0 +1,12 @@
+weighted_strict_precision:0.10150653903710201
+weighted_strict_recall:0.13505747125724354
+weighted_strict_f1:0.11327488285180665
+weighted_Proportional_precision:0.1472941081671157
+weighted_Proportional_recall:0.1922135855315563
+weighted_Proportional_f1:0.1623249360324545
+strict_precision:0.09624573378773894
+strict_recall:0.13505747126307419
+strict_f1:0.11239537178396297
+Proportional_precision:0.13499841922215064
+Proportional_recall:0.1839328020674306
+Proportional_f1:0.1557115458514521
