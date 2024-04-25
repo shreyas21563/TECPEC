@@ -22,7 +22,7 @@ Sentence Embedding: https://drive.google.com/file/d/17XKike87FrCYHn1pHP00m2YgTJB
 | Sadness | 0.25      |0.32     | 0.28|       136|
 |         |           |        |          |      |
 |Accuracy |           |        |  0.32    | 1475 |
-|macro avg |       0.27|      0.31      0.27      1475|
+|macro avg |       0.27|      0.31  |    0.27  |    1475|
 |weighted avg |       0.40|      0.32|      0.32|      1475|
 ## Confusion Matrix
 <div style="display: flex; flex-wrap: wrap;">
