@@ -4,7 +4,7 @@
 
 This project presents our submission to SemEval-2024 Task 3, Subtask 1, "Textual Emotion-Cause Pair Extraction in Conversation". We introduce a two-step pipeline architecture to identify emotion-cause pairs in textual conversations. Our team ranked **5th** out of 31 participating teams. 🎉🎉🎉
 
-Check out the [SemEval-2024 Task 3 Leaderboard](https://codalab.lisn.upsaclay.fr/competitions/16141#results) for detailed rankings and visit the [SemEval-2024 Task 3](https://nustm.github.io/SemEval-2024_ECAC/)Official Page for more information about the competition.
+Check out the [SemEval-2024 Task 3 Leaderboard](https://codalab.lisn.upsaclay.fr/competitions/16141#results) for detailed rankings and visit the [SemEval-2024 Task 3](https://nustm.github.io/SemEval-2024_ECAC/) Official Page for more information about the competition.
 
 ## Abstract
 
