@@ -67,25 +67,21 @@ The dataset contains conversations from the American sitcom F.R.I.E.N.D.S., anno
 - **Strict Match**: The predicted span should be the same as the annotated span.
 - **Proportional Match**: Considering the overlap proportion of the predicted span and the annotated one.
 
-## Results and Analysis
+## Scores on Leaderboard
 
-### ERC Performance on Validation Set
+| ERC Model | Cause Model | weighted_strict_f1 | weighted_Proportional_f1 | strict_f1 | Proportional_f1 |
+| --------- | ----------- | ------------------ | -------------------------| --------- |---------------- |
+| GPT 2     | Simple Transformer QA (mrm8488/spanbert-finetuned-squadv2) | 0.1345 | 0.1767 | 0.1283 | 0.1626 |
+| BERT      | Simple Transformer QA (mrm8488/spanbert-finetuned-squadv2) | 0.1318  | 0.1704 | 0.1267  | 0.1581  |
+| RoBERTa   | Simple Transformer QA (mrm8488/spanbert-finetuned-squadv2) | 0.1314 | 0.1697 | 0.1301| 0.1629 |
 
-| Model                     | Accuracy | Macro F1 | Weighted F1 |
-|---------------------------|----------|----------|-------------|
-| BERT                      | 0.32     | 0.27     | 0.32        |
-| RoBERTa                   | 0.31     | 0.27     | 0.30        |
-| GPT2                      | 0.36     | 0.30     | 0.37        |
-| Zero Shot GPT 4           | 0.38     | 0.12     | 0.28        |
-| In Context Learning GPT 4 | 0.58     | 0.37     | 0.53        |
-
-### Testing Scores on Leaderboard
-
-| ERC Model | Cause Model | Wt. Strict F1 | Wt. Prop. F1 | Strict F1 | Prop. F1 |
-|-----------|--------------|---------------|--------------|-----------|----------|
-| GPT2      | QA           | 0.1345        | 0.1767       | 0.1283    | 0.1626   |
-| BERT      | QA           | 0.1318        | 0.1704       | 01283    | 0.1581   |
-| RoBERTa   | QA           | 0.1314        | 0.1697       | 0.1301    | 0.1629   |
+## Ablation Study on Validation Set
+| ERC Model | Cause Model | weighted_strict_f1 | weighted_Proportional_f1 | strict_f1 | Proportional_f1 |
+| --------- | ----------- | ------------------ | -------------------------| --------- |---------------- |
+| Ground truth | Simple Transformer QA (mrm8488/spanbert-finetuned-squadv2) | 0.3430 | 0.4612 | 0.3441 | 0.4594 |
+| GPT 2     | Simple Transformer QA (mrm8488/spanbert-finetuned-squadv2) | 0.1153 | 0.1543 | 0.1135 | 0.1443|
+| BERT      | Simple Transformer QA (mrm8488/spanbert-finetuned-squadv2) | 0.1181  | 0.1673 | 0.1148  |  0.1568 |
+| RoBERTa   | Simple Transformer QA (mrm8488/spanbert-finetuned-squadv2) | 0.1132 | 0.1623 | 0.1123 | 0.1557 |
 
 ## Conclusion
 
@@ -110,8 +106,7 @@ Our exploration into Textual Emotion-Cause Pair Extraction in Conversations has 
  Intelligence, 2023.
 -  S. Poria, N. Majumder, D. Hazarika, D. Ghosal, R. Bhardwaj, S. Y. B.
  Jian, P. Hong, R. Ghosh, A. Roy, N. Chhaya et al., “Recognizing emotion
- cause in conversations,” Cognitive Computation, vol. 13, pp. 1317–1332,
- 2021.
+ cause in conversations,” Cognitive Computation, vol. 13, pp. 1317–1332, 2021.
 -  Z. Ding, R. Xia, and J. Yu, “End-to-end emotion-cause pair extraction
  based on sliding window multi-label learning,” in Proceedings of the
  2020 conference on empirical methods in natural language processing
