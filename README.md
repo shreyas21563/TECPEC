@@ -25,6 +25,9 @@ In this project, we aim to develop novel model architectures and employ novel te
 
 The task involves identifying emotion-cause pairs within conversations. Each conversation consists of multiple utterances from different speakers. An emotion-cause pair is defined as an emotion utterance along with its emotion category and the textual cause span in a specific cause utterance.
 
+![image](https://github.com/user-attachments/assets/a3cf3004-68df-433f-baf3-5bb1f4dc070b)
+
+
 ### Pipeline Overview
 
 The task pipeline comprises two stages:
@@ -68,6 +71,16 @@ The dataset contains conversations from the American sitcom F.R.I.E.N.D.S., anno
 
 - **Strict Match**: The predicted span should be the same as the annotated span.
 - **Proportional Match**: Considering the overlap proportion of the predicted span and the annotated one.
+
+## ERC Performance on Validation Set
+
+| Model                     | Accuracy | Macro F1 | Weighted F1 |
+|---------------------------|----------|----------|-------------|
+| BERT                      | 0.32     | 0.27     | 0.32        |
+| RoBERTa                   | 0.31     | 0.27     | 0.30        |
+| GPT2                      | 0.36     | 0.30     | 0.37        |
+| Zero Shot GPT 4           | 0.38     | 0.12     | 0.28        |
+| In Context Learning GPT 4 | 0.58     | 0.37     | 0.53        |
 
 ## Scores on Leaderboard
 
