@@ -106,7 +106,8 @@ Our exploration into Textual Emotion-Cause Pair Extraction in Conversations has 
 
 - Using state-of-the-art models for the ERC task.
 - Developing more robust architectures for emotion recognition and cause extraction.
-- Develop an end-to-end architecture that directly identifies the emotion-cause pair
+- Develop an end-to-end architecture that directly identifies the emotion-cause pair.
+- Work on Subtask 2: Multimodal input (speech, video, text).
 
 ## Authors
 - Shreyas Kabra, CSAI, IIIT Delhi
